@@ -11,3 +11,6 @@ def test_doublesom():
 
 def test_triplesom():
     assert som([1,2,9]) == 3
+
+def test_quadsom():
+    assert som([-1,1,2,9]) == 11
